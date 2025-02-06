@@ -7,6 +7,8 @@ const port = 3000
 // importo il router dei posts
 const postsRouter = require('./routers/posts');
 
+
+// imgs statiche
 app.use(express.static('public'));
 
 
